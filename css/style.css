@@ -1,13 +1,15 @@
+body {
+    background-color: #f6f8f9;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(194, 194, 194);
 }
 
 header {
     background-color: white;
-    border: solid 1px;
     height: 70px;
     background-color: white;
     padding: 10px;
@@ -19,14 +21,17 @@ header img {
     display: inline-block;
     width: auto;
     height:50px;
+    vertical-align: middle;
 }
 
 header h1 {
     background-color: white;
     margin: auto 0px ;
-    padding-left: 30px;
     display: inline;
     padding: auto 0px;
+    vertical-align: middle;
+    font-family: sans-serif;
+    
 }
 
 .section1 {
@@ -34,4 +39,149 @@ header h1 {
     height: 700px;
     background-color: white;
     margin: 60px auto;
+}
+
+.section-button {
+    padding: 12px 70px;
+    border-bottom: solid 1px rgb(222, 222, 222);
+    margin-bottom: 30px;
+}
+
+.button1 {
+    font-size: 11px;
+    color: white;
+    width: 70px;
+    height: 25px;
+    background-color: #47adf1;
+    border: rgb(222, 222, 222) solid;
+    margin-right: 10px;
+    border-radius: 15px;
+    
+}
+
+.button2 {
+    font-size: 11px;
+    color: rgb(208, 208, 208);
+    width: 80px;
+    height: 25px;
+    border: rgb(222, 222, 222) solid;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button-purle {
+    font-size: 11px;
+    color: #ffffff;
+    width: 80px;
+    height: 25px;
+    border:rgb(222, 222, 222) solid;
+    background-color: #9c72e4;
+    border-radius: 15px;
+}
+
+.button-blue {
+
+    font-size: 11px;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background-color: #47adf1;
+    border: rgb(222, 222, 222) solid;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.button-green {
+
+    font-size: 11px;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background-color: #64c0a9;
+    border: rgb(222, 222, 222) solid;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.button-orange {
+
+    font-size: 11px;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background-color: #f29e33;
+    border: rgb(222, 222, 222) solid;
+    margin-right: 10px;
+    border-radius: 15px;
+    
+}
+
+.button-pink {
+
+    font-size: 11px;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background-color: #bd6bbf;
+    border: rgb(222, 222, 222) solid;
+    margin-right: 10px;
+    border-radius: 15px;
+    
+}
+
+.button-green2 {
+
+    font-size: 11px;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background-color: #b0c926;
+    border: rgb(222, 222, 222) solid;
+    margin-right: 10px;
+    border-radius: 15px;
+    
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+ul button {
+    vertical-align: middle;
+}
+
+ li {
+    list-style: none;
+    padding: 10px;
+}
+
+li span {
+    font-size: 20px;
+}
+
+#text {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.sottolista{
+    margin: 10px;
+}
+
+#listred {
+    color: red;
+}
+
+.sottolista span {
+    border: solid 1px;
+    border-radius: 20px;
+    font-size: medium;
+    padding: 2px;
+    color:#64c0a9;
+}
+
+
+ul{
+    padding-left: 20px;
 }
